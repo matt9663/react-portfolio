@@ -11,9 +11,13 @@ const NavTitle = () => {
       window.removeEventListener("resize", debounce(handleResize, 80));
   }, []);
   return width > breakpoint ? (
-    <h1>Theres gonna be a picture of me</h1>
+    <h2>
+      <a href="/">Matt Wood</a>
+    </h2>
   ) : (
-    <h1>Matt Wood</h1>
+    <h2>
+      <a href="/">Matt Wood</a>
+    </h2>
   );
 };
 

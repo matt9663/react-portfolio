@@ -1,0 +1,30 @@
+@import "./sass/variables";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background-color: #f2f2f2;
+  color: $darkestGrey;
+  font-family: $text-font1;
+
+  li {
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+  }
+}
+
+.section-title {
+  font-size: 2rem;
+  font-family: $header-font;
+  letter-spacing: 0.2rem;
+  text-decoration: underline;
+  text-decoration-color: $lavender;
+}
