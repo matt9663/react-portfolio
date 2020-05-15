@@ -1,7 +1,9 @@
 import React from "react";
 import "./nav-items.styles.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavItems = () => {
+  const burgerIcon = "bars";
   return (
     <div className="nav-items-container">
       <ul className="nav-items">
@@ -18,6 +20,9 @@ const NavItems = () => {
           <a href="#contact">CONTACT</a>
         </li>
       </ul>
+      <div className="hamburger">
+        <FontAwesomeIcon icon={burgerIcon} />
+      </div>
     </div>
   );
 };

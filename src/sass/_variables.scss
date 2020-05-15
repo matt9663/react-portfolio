@@ -1,15 +1,43 @@
+// fonts
 $typewriter-font: "Press Start 2P", cursive;
 $typewriter-font2: "Source Code Pro", monospace;
 $header-font: "Bebas Neue", cursive;
 $text-font1: "Open Sans", sans-serif;
 $text-font2: "Raleway", sans-serif;
 
+// colors
+$navWhite: hsl(322, 100%, 98%);
 $darkestGrey: #000713;
 $darkGrey: #00171f;
 $lightGrey: #f1fffa;
 $veryLightBlue: #f4ffff;
 $lavender: #7e556f;
-
 $seaGreen: #5dfdcb;
 $red: #eb5e55;
 $yellow: #fed18c;
+
+//media query breakpoints
+
+@mixin smallestMobile {
+  @media only screen and (min-width: 325px) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media only screen and (min-width: 750px) {
+    @content;
+  }
+}
+
+@mixin monitors {
+  @media only screen and (min-width: 1000px) {
+    @content;
+  }
+}
+
+@mixin mobileSpecific {
+  @media only screen and (max-width: 475px) {
+    @content;
+  }
+}

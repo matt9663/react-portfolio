@@ -1,4 +1,5 @@
 import React from "react";
+import "./nav-title.style.scss";
 import { debounce } from "../../utils";
 
 const NavTitle = () => {
@@ -11,12 +12,12 @@ const NavTitle = () => {
       window.removeEventListener("resize", debounce(handleResize, 80));
   }, []);
   return width > breakpoint ? (
-    <h2>
-      <a href="/">Matt Wood</a>
+    <h2 className="nav-title-text">
+      <a href="#home">Matt Wood</a>
     </h2>
   ) : (
-    <h2>
-      <a href="/">Matt Wood</a>
+    <h2 className="nav-title-text">
+      <a href="#home">Matt Wood</a>
     </h2>
   );
 };

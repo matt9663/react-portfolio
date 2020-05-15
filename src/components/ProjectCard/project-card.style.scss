@@ -1,0 +1,53 @@
+@import "../../sass/_variables.scss";
+
+.project-card {
+  background-size: cover;
+  background-position: left top;
+
+  .card-info {
+    color: $navWhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.15s ease-in-out;
+    background-color: rgba(126, 85, 111, 0.8);
+
+    &:hover {
+      opacity: 1;
+    }
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    .project-button-holder {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+
+      .project-link {
+        .project-button {
+          font-family: $typewriter-font2;
+          font-weight: 800;
+          font-size: 0.9rem;
+          width: 9rem;
+          margin: 10px 0;
+          padding: 10px 20px;
+          border-radius: 5px;
+          border: none;
+          background-color: $yellow;
+          color: $darkestGrey;
+          cursor: pointer;
+          transition: 0.15s ease-in-out;
+          &:hover {
+            transform: scale(1.03);
+            background-color: #e7b15f;
+          }
+        }
+      }
+    }
+  }
+}

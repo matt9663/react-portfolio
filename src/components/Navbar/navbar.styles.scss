@@ -1,12 +1,15 @@
 @import "../../sass/variables";
 
 .site-nav {
+  z-index: 10;
+  position: sticky;
+  top: 0;
   background-color: $lavender;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: $text-font2;
-  color: hsl(0, 0%, 95%);
-  padding: 0 3rem;
+  color: $navWhite;
+  padding: 0 2rem;
   height: 7vh;
 }

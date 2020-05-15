@@ -6,12 +6,13 @@ import {
   faServer,
   faLaptopCode,
   faTerminal,
+  faBars,
 } from "@fortawesome/free-solid-svg-icons";
 
 import Navbar from "./components/Navbar/navbar.component";
 import Main from "./components/main/main.component";
 
-library.add(fab, faLaptopCode, faServer, faTerminal);
+library.add(fab, faLaptopCode, faServer, faTerminal, faBars);
 
 function App() {
   return (

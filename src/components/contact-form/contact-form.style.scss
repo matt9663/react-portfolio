@@ -1,0 +1,10 @@
+.contact-section {
+  padding-bottom: 2rem;
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    border: 1px solid black;
+  }
+}

@@ -114,7 +114,8 @@ const projects = [
     subtitle: "Musician's Social Network",
     description:
       "Networking tool for musicians. Create bands, find new memebers, & collaborate via a shared message board. User authentication handled via JWT. Built with React, NodeJs/Express, and PostgreSQL.",
-    img: "",
+    img:
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/JamfinderScreenshot.png",
     liveUrl: "https://jamfinder-app.now.sh/",
     clientRepo: "https://github.com/matt9663/jamfinder-client-app",
     serverRepo: "https://github.com/matt9663/jamfinder-server-api",
@@ -125,7 +126,8 @@ const projects = [
     subtitle: "Workout Builder/Planner App",
     description:
       "Add exercises to a global database and build personal workouts. Plan your week out and mark workouts as completed as you go. User authentication handled via JWT. Built with React, NodeJs/Express, and PostgreSQL.",
-    img: "",
+    img:
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/fitscribe.png",
     liveUrl: "https://fitscribe-app.now.sh/",
     clientRepo: "https://github.com/matt9663/fitscribe-app",
     serverRepo: "https://github.com/matt9663/fitscribe-server",
@@ -136,7 +138,8 @@ const projects = [
     subtitle: "Song-learning materials compiler",
     description:
       "This app aggregates materials from around the web to help users learn songs on the guitar. It pulls lyrics, a reference video, and tablature from 3 external APIs. Built with HTML, CSS, Javascript, & jQuery.",
-    img: "",
+    img:
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/AppSS_Cropped.png",
     liveUrl: "https://matt9663.github.io/learn-to-play/",
     clientRepo: "https://github.com/matt9663/learn-to-play",
   },
@@ -146,7 +149,8 @@ const projects = [
     subtitle: "Fab Four Quiz App",
     description:
       "Quiz app that tests the depths of the user’s obscure knowledge on the Fab Four. Questions sourced from the depths of my own obscure knowledge.  Built with HTML, CSS, Javascript, & jQuery.",
-    img: "",
+    img:
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/BeatlesSS.PNG",
     liveUrl: "https://matt9663.github.io/quiz-app/index.html",
     clientRepo: "https://github.com/matt9663/quiz-app",
   },

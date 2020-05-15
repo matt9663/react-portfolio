@@ -5,7 +5,7 @@ import "./typewriter.styles.scss";
 
 const Typewriter = () => {
   return (
-    <div className="typewriter">
+    <div className="typewriter" id="home">
       <Typical
         className="typewriter-text"
         loop={Infinity}

@@ -1,5 +1,17 @@
+@import "../../sass/variables";
+
 .skill-card-section {
-  padding: 3rem;
+  padding: 3rem 0;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  @include monitors {
+    padding: 3rem 3rem;
+  }
 }

@@ -1,0 +1,17 @@
+@import "../../sass/variables";
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(400px, auto);
+  grid-gap: 1.5rem;
+  margin: 2rem 0;
+
+  @include tablet {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @include monitors {
+    padding: 0 4rem;
+  }
+}
