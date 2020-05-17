@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const NavItems = () => {
   const burgerIcon = "bars";
+
   return (
     <div className="nav-items-container">
       <ul className="nav-items">

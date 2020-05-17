@@ -20,13 +20,14 @@ const skills = [
         logo: ["fab", "react"],
       },
       {
-        name: "jQuery",
-        logo: "",
-      },
-      {
         name: "Sass",
         logo: ["fab", "sass"],
       },
+      {
+        name: "jQuery",
+        logo: "",
+      },
+
       {
         name: "Fetch API",
         logo: "",
@@ -76,6 +77,10 @@ const skills = [
         logo: ["fab", "chrome"],
       },
       {
+        name: "JIRA/Confluence",
+        logo: ["fab", "jira"],
+      },
+      {
         name: "Jest",
         logo: "",
       },
@@ -98,10 +103,6 @@ const skills = [
       {
         name: "Vercel/Zeit",
         logo: "",
-      },
-      {
-        name: "JIRA/Confluence",
-        logo: ["fab", "jira"],
       },
     ],
   },

@@ -1,8 +1,9 @@
 @import "../../sass/variables";
 
 .site-nav {
+  width: 100%;
   z-index: 10;
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color: $lavender;
   display: flex;
@@ -12,4 +13,11 @@
   color: $navWhite;
   padding: 0 2rem;
   height: 7vh;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.65);
+  transition: all 200ms ease-in-out;
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+  box-shadow: none;
 }

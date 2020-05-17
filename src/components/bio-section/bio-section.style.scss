@@ -2,10 +2,10 @@
 
 .about-content {
   width: 100%;
-  padding: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 3rem 1.5rem;
   @include tablet {
     display: block;
     padding: 3rem 6rem;

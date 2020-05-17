@@ -1,3 +1,9 @@
+@import "../../sass/variables";
+
 .nav-title-text {
   font-weight: 800;
+  font-size: 1.2rem;
+  @include tablet {
+    font-size: 1.5rem;
+  }
 }
