@@ -25,7 +25,8 @@ const skills = [
       },
       {
         name: "jQuery",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-jquery-50.png",
       },
 
       {
@@ -47,19 +48,22 @@ const skills = [
         logo: ["fab", "node-js"],
       },
       {
-        name: "Express",
-        logo: "",
-      },
-      {
         name: "PostgreSQL",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-postgresql-50.png",
       },
       {
         name: "SQL",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-sql-50.png",
       },
       {
         name: "Firebase",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-firebase-50.png",
+      },
+      {
+        name: "Express",
         logo: "",
       },
     ],
@@ -82,7 +86,8 @@ const skills = [
       },
       {
         name: "Jest",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/jest.png",
       },
       {
         name: "Mocha",
@@ -93,16 +98,14 @@ const skills = [
         logo: "",
       },
       {
-        name: "TDD",
-        logo: "",
-      },
-      {
         name: "Heroku",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-heroku-50.png",
       },
       {
         name: "Vercel/Zeit",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/zeit.png",
       },
     ],
   },

@@ -10,9 +10,15 @@ const SkillsCard = ({ headerIcon, title, technologies, underline }) => {
       <ul className="tech-list">
         {technologies.map((tech, index) => (
           <li className="tech" key={index}>
-            {Array.isArray(tech.logo) ? (
-              <FontAwesomeIcon className="tech-icon" icon={tech.logo} />
-            ) : null}
+            {tech.imageUrl ? (
+              <img
+                className="tech-icon"
+                alt={`${tech.name} logo`}
+                src={tech.imageUrl}
+              />
+            ) : (
+              <div className="tech-icon spacer"></div>
+            )}
             {tech.name}
           </li>
         ))}
