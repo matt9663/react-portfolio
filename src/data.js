@@ -5,37 +5,40 @@ const skills = [
     technologies: [
       {
         name: "HTML5",
-        logo: ["fab", "html5"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/HTML5_Badge_64.png",
       },
       {
         name: "CSS3",
-        logo: ["fab", "css3-alt"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/css.png",
       },
       {
         name: "Javascript (ES6)",
-        logo: ["fab", "js-square"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/javascript.png",
       },
       {
         name: "React",
-        logo: ["fab", "react"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/react.png",
       },
       {
         name: "Sass",
-        logo: ["fab", "sass"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/sass.png",
       },
       {
         name: "jQuery",
         imageUrl:
-          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-jquery-50.png",
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/jquery.png",
       },
 
       {
         name: "Fetch API",
-        logo: "",
       },
       {
         name: "Responsive Design",
-        logo: "",
       },
     ],
   },
@@ -45,7 +48,8 @@ const skills = [
     technologies: [
       {
         name: "Node.js",
-        logo: ["fab", "node-js"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/node.png",
       },
       {
         name: "PostgreSQL",
@@ -64,7 +68,7 @@ const skills = [
       },
       {
         name: "Express",
-        logo: "",
+        imageUrl: "",
       },
     ],
   },
@@ -74,15 +78,18 @@ const skills = [
     technologies: [
       {
         name: "Git/Github",
-        logo: ["fab", "github"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/GitHub-Mark-64px.png",
       },
       {
         name: "Chrome Dev Tools",
-        logo: ["fab", "chrome"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/chrome.png",
       },
       {
         name: "JIRA/Confluence",
-        logo: ["fab", "jira"],
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/jira.png",
       },
       {
         name: "Jest",
@@ -91,16 +98,18 @@ const skills = [
       },
       {
         name: "Mocha",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/mocha.png",
       },
       {
         name: "Chai",
-        logo: "",
+        imageUrl:
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/chai.png",
       },
       {
         name: "Heroku",
         imageUrl:
-          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-heroku-50.png",
+          "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/heroku-logo-stroke-purple.png",
       },
       {
         name: "Vercel/Zeit",

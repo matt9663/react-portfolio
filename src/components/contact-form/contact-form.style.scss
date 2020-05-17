@@ -1,10 +1,41 @@
+@import "../../sass/variables";
+
 .contact-section {
   padding-bottom: 2rem;
   .contact-form {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 3rem;
-    border: 1px solid black;
+    padding: 2rem;
+    @include mobileSpecific {
+      padding: 2rem 0;
+    }
+    @include tablet {
+      padding: 2rem 5rem;
+    }
+    @include monitors {
+      padding: 2rem 10rem;
+    }
+    .form-input {
+      font-family: $text-font2;
+      padding: 0.5rem;
+    }
+    .project-button {
+      font-family: $typewriter-font2;
+      font-size: 1.5rem;
+      width: 100%;
+      margin: 10px 0;
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: $yellow;
+      color: $darkestGrey;
+      cursor: pointer;
+      transition: 0.15s ease-in-out;
+      &:hover {
+        transform: scale(1.01);
+        background-color: #e7b15f;
+      }
+    }
   }
 }

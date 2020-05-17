@@ -22,10 +22,29 @@ export default class ContactForm extends React.Component {
           className="contact-form"
         >
           <label>Email:</label>
-          <input type="email" name="email" />
+          <input
+            type="email"
+            className="form-input email"
+            name="email"
+            placeholder="Email Address"
+            required
+          />
           <label>Message:</label>
-          <input type="text" name="message" />
-          {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+          <textarea
+            className="form-input message"
+            type="text"
+            name="message"
+            placeholder="Don't be shy"
+            rows={7}
+            required
+          />
+          {status === "SUCCESS" ? (
+            <p>Thanks!</p>
+          ) : (
+            <button className="project-button form-submit" type="submit">
+              SUBMIT
+            </button>
+          )}
           {status === "ERROR" && <p>Ooops! There was an error.</p>}
         </form>
       </div>

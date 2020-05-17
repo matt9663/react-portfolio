@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab } from "@fortawesome/free-brands-svg-icons";
+
 import {
   faServer,
   faLaptopCode,
@@ -12,7 +12,7 @@ import {
 import Navbar from "./components/Navbar/navbar.component";
 import Main from "./components/main/main.component";
 
-library.add(fab, faLaptopCode, faServer, faTerminal, faBars);
+library.add(faLaptopCode, faServer, faTerminal, faBars);
 
 function App() {
   return (
