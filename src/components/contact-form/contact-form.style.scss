@@ -19,11 +19,13 @@
     .form-input {
       font-family: $text-font2;
       padding: 0.5rem;
+      margin-bottom: 1rem;
     }
     .project-button {
       font-family: $typewriter-font2;
       font-size: 1.5rem;
       width: 100%;
+      max-width: 500px;
       margin: 10px 0;
       padding: 10px 20px;
       border-radius: 5px;
@@ -32,6 +34,7 @@
       color: $darkestGrey;
       cursor: pointer;
       transition: 0.15s ease-in-out;
+      border: 1px rgba(0, 0, 0, 0.3) solid;
       &:hover {
         transform: scale(1.01);
         background-color: #e7b15f;

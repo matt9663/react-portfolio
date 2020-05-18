@@ -1,0 +1,28 @@
+@import "../../sass/variables";
+
+.hamburger {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+
+  .toggle-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background: transparent;
+    border: 2px solid $navWhite;
+    color: $navWhite;
+    cursor: pointer;
+
+    svg {
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+  @include tablet {
+    display: none;
+  }
+}

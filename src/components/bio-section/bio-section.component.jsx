@@ -27,7 +27,7 @@ const BioSection = () => {
           <br />
           <br />
           When I'm not coding, I enjoy playing music 🎸, cooking 👨‍🍳, drinking
-          coffee ☕, or hanging out with my dog Pawlie 🐕.
+          coffee ☕, and hanging out with my dog Pawlie 🐕.
         </p>
       </div>
     </div>

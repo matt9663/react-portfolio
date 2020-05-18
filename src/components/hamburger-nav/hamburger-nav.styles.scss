@@ -1,0 +1,57 @@
+@import "../../sass/variables";
+
+.hamburger-nav {
+  z-index: 10000;
+  background-color: $lavender;
+  height: calc(100vh - 60px);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  top: 60px;
+  right: -250px;
+  transition: all 0.3s ease-in-out;
+  .hamburger-nav-items {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .nav-item {
+      position: relative;
+      font-size: 2rem;
+      margin: 2rem 0;
+      a {
+        transition-duration: 0.2s;
+      }
+      a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $navWhite;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.2s ease-in-out;
+      }
+      a:hover:before {
+        visibility: visible;
+        transform: scaleX(1);
+      }
+    }
+  }
+  @include tablet {
+    display: none;
+  }
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+  transform: translateX(-250px);
+}

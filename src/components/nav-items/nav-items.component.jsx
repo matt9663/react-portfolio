@@ -1,12 +1,15 @@
 import React from "react";
 import "./nav-items.styles.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import HamburgerToggleButton from "../hamburger-nav/hamburger-toggle-button";
+import HamburgerNav from "../hamburger-nav/hamburger-nav.component";
 
-const NavItems = () => {
-  const burgerIcon = "bars";
-
+const NavItems = ({ sideDrawerOpen, toggleSideDrawer }) => {
   return (
     <div className="nav-items-container">
+      <HamburgerToggleButton
+        toggleSideDrawer={toggleSideDrawer}
+        sideDrawerOpen={sideDrawerOpen}
+      />
       <ul className="nav-items">
         <li className="nav-item bio-item">
           <a href="#bio">BIO</a>
@@ -21,9 +24,10 @@ const NavItems = () => {
           <a href="#contact">CONTACT</a>
         </li>
       </ul>
-      <div className="hamburger">
-        <FontAwesomeIcon icon={burgerIcon} />
-      </div>
+      <HamburgerNav
+        sideDrawerOpen={sideDrawerOpen}
+        toggleSideDrawer={toggleSideDrawer}
+      />
     </div>
   );
 };

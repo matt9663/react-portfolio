@@ -8,7 +8,7 @@ import ContactForm from "../contact-form/contact-form.component";
 
 const Main = () => {
   return (
-    <main className="main">
+    <main className="main" style={{ height: "100%" }}>
       <SectionContainer>
         <Typewriter />
       </SectionContainer>
