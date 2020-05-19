@@ -8,6 +8,7 @@ const BioSection = () => {
       <div className="about-content">
         <img
           className="headshot"
+          height="250"
           alt="my head shot!"
           src="https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/croppedPic.jpg"
         />
