@@ -9,7 +9,7 @@ const BioSection = () => {
         <img
           className="headshot"
           alt="my head shot!"
-          src="https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/croppedPic.jpg"
+          src="https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/crop.jpg"
         />
         <p className="bio">
           I am a full stack Web Developer based in Richmond, VA. I love
