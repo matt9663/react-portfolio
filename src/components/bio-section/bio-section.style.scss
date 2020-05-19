@@ -26,11 +26,12 @@
   .headshot {
     border-radius: 50%;
     margin: 0 auto 3rem auto;
+    height: 250px;
     @include tablet {
       margin: 0;
       float: left;
       shape-outside: circle();
-      margin-right: 35px;
+      margin-right: 60px;
     }
   }
 }
