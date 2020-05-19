@@ -6,9 +6,14 @@
   flex-direction: column;
   justify-content: center;
   padding: 3rem 1.5rem;
+
   @include tablet {
     display: block;
     padding: 3rem 6rem;
+    line-height: 1.8rem;
+  }
+  @include monitors {
+    padding: 6rem 10rem;
   }
 
   .bio {

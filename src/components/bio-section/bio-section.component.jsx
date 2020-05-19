@@ -23,7 +23,7 @@ const BioSection = () => {
           in order to improve the Web experience for all, and would love to join
           a team that shares these values. I am always striving to grow as a
           developer and want to work and collaborate with people that will push
-          me to do better every day.
+          me to be better every day.
           <br />
           <br />
           When I'm not coding, I enjoy playing music 🎸, cooking 👨‍🍳, drinking
