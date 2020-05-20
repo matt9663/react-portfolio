@@ -132,6 +132,14 @@ const projects = [
     liveUrl: "https://jamfinder-app.now.sh/",
     clientRepo: "https://github.com/matt9663/jamfinder-client-app",
     serverRepo: "https://github.com/matt9663/jamfinder-server-api",
+    techIcons: [
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/react.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/css.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/node.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-postgresql-50.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/heroku-logo-stroke-purple.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/zeit.png",
+    ],
   },
   {
     id: 2,
@@ -144,6 +152,14 @@ const projects = [
     liveUrl: "https://fitscribe-app.now.sh/",
     clientRepo: "https://github.com/matt9663/fitscribe-app",
     serverRepo: "https://github.com/matt9663/fitscribe-server",
+    techIcons: [
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/react.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/css.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/node.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/icons8-postgresql-50.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/heroku-logo-stroke-purple.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/zeit.png",
+    ],
   },
   {
     id: 3,
@@ -155,6 +171,12 @@ const projects = [
       "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/AppSS_Cropped.png",
     liveUrl: "https://matt9663.github.io/learn-to-play/",
     clientRepo: "https://github.com/matt9663/learn-to-play",
+    techIcons: [
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/javascript.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/css.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/HTML5_Badge_64.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/jquery.png",
+    ],
   },
   {
     id: 4,
@@ -166,6 +188,12 @@ const projects = [
       "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/images/BeatlesSS.PNG",
     liveUrl: "https://matt9663.github.io/quiz-app/index.html",
     clientRepo: "https://github.com/matt9663/quiz-app",
+    techIcons: [
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/javascript.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/css.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/HTML5_Badge_64.png",
+      "https://raw.githubusercontent.com/matt9663/react-portfolio/master/src/assets/logo-icons/jquery.png",
+    ],
   },
 ];
 
