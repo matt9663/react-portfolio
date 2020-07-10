@@ -22,22 +22,22 @@
       margin-bottom: 1rem;
     }
     .project-button {
-      font-family: $typewriter-font2;
-      font-size: 1.5rem;
+      font-family: $header-font;
+      letter-spacing: 3px;
+      font-size: 2.2rem;
       width: 100%;
-      max-width: 500px;
+      max-width: 400px;
       margin: 10px 0;
-      padding: 10px 20px;
+      padding: 10px 15px;
       border-radius: 5px;
-      border: none;
-      background-color: $yellow;
-      color: $darkestGrey;
+      background-color: $lavender;
+      color: $navWhite;
       cursor: pointer;
       transition: 0.15s ease-in-out;
       border: 1px rgba(0, 0, 0, 0.3) solid;
       &:hover {
         transform: scale(1.01);
-        background-color: #e7b15f;
+        background-color: #614256;
       }
     }
   }
